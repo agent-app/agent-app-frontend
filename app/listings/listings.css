@@ -1,0 +1,40 @@
+.listings-area {
+  display: flex;
+  position: relative;
+}
+.filter-area {
+  width: 30%;
+  margin: 0 2rem;
+  position: relative;
+}
+.filter-section {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.05);
+  min-height: 500px;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border: 1px solid #dddada;
+  background-color: #fff;
+}
+.filter-heading {
+  margin: 10px 0;
+}
+.filter-input {
+  width: 100%;
+  border: 1px solid #dddada;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+.listings-section {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.filter-button {
+  padding: 1rem;
+  width: 100%;
+  background-color: var(--primaryColor);
+  color: var(--textPrimary);
+  border-radius: 5px;
+}

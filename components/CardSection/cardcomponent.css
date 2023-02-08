@@ -1,0 +1,77 @@
+.card{
+    width: 350px;
+    min-height: 500px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.05);
+    margin: 0 1rem;
+    background-color: #fff;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+    border: solid 1px #e9e7e7;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px;
+}
+.card-image{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    padding: 0;
+}
+.card-image .listing-price{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.card-body{
+    padding: 2rem;
+}
+.card-body .listing-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-body .listing-location{
+    display: flex;
+    margin: 10px 0;
+}
+.card-body .listing-details{
+    margin: 30px 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.card-body .listing-details-section{
+    display: flex;
+    justify-content: space-between;
+}
+.card-body .listing-details .listing-user{
+    display: flex;
+}
+.card-body .listing-details .listing-date{
+    display: flex;
+}
+.card-body .listing-icon{
+    font-size: 20px;
+    margin: 0 10px 0 0;
+}
+.card-button .listing-button{
+    padding: 1rem;
+    background-color: var(--primaryColor);
+    border: 0;
+    width: 100%;
+    border-radius: 10px;
+    color: var(--textPrimary);
+}
+
+@media (max-width: 968px) {
+    .card{
+        margin: 20px 0;
+    }
+}

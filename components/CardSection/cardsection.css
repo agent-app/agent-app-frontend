@@ -1,0 +1,25 @@
+.card-section{
+    min-height: 80vh;
+    
+    
+}
+.card-section .card-row{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+.card-section .section-heading{
+    margin: 2rem 0;
+}
+.card-section .section-heading h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+@media (max-width: 968px) {
+    .card-section .card-row{
+        flex-wrap: wrap;
+         align-items: center;
+    }
+}

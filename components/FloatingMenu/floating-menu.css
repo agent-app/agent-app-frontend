@@ -1,0 +1,40 @@
+.floating-menu{
+    position: fixed;
+    min-width: 300px;
+    height: 50px;
+    bottom: 50px;
+    right: 400px;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 50px;
+    z-index: 999;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+.nav-link-floating{
+    margin: 0 15px;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-link-floating:hover{
+    color: var(--primaryColor);
+}
+.nav-link-floating .link-section{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-link-floating .link-section .link-icon{
+    font-size: 20px;
+}

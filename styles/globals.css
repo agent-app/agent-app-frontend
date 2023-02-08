@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --primaryColor: #8339EE;
+    --secondaryColor: #2273FF;
+    --textPrimary: #ffff;
+}
+
+.btn-primary-custom{
+    background-color: var(--primaryColor);
+    padding: 10px 40px ;
+    margin: 0 1rem;
+    border-radius: 5px;
+    color: #fff;
+}

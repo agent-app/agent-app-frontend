@@ -1,0 +1,55 @@
+.apartment-section{
+    min-height: 80vh;
+    padding: 2rem;
+    margin: 0rem 0 5rem 0;
+}
+.apartment-section .section-heading{
+    margin: 2rem 0;
+}
+.apartment-section .section-heading h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.apartment-section .apartment-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.apartment-section .apartment-row .apartment{
+    width: 400px;
+    margin: 20px 50px;
+    /* background-color: red; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.apartment .apartment-icon-section{
+    background-color: var(--secondaryColor);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apartment .apartment-icon-section .apartment-icon{
+    font-size: 80px;
+    color: var(--textPrimary);
+}
+.apartment .apartment-heading{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+@media (max-width: 968px) {
+    .apartment-section .apartment-row .apartment{
+    
+    margin: 20px 0;
+   
+}
+}

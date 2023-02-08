@@ -1,0 +1,53 @@
+.hero-section{
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../../public/images/hero-bg.png');
+    min-height: 100vh;
+    max-height: 1000px;
+    position: relative;
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    margin-bottom: 100px;
+}
+.hero-info-area{
+    width: 80%;
+    margin-top: 50px;
+}
+.hero-title{
+    font-size: 60px;
+}
+.hero-details{
+    text-align: center;
+}
+.hero-form{
+    position: absolute;
+    min-width: 800px;
+    /* margin-bottom: 200px; */
+    height: 400px;
+    bottom: -100px;
+    padding: 2rem;
+    background-color: #000;
+}
+.form-partition{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.form-partition .form-right, .form-partition .form-left{
+    width: 50%;
+    margin: 0 10px;
+}
+.form-input{
+    padding: 1rem;
+    width: 100%;
+    font-family: inherit;
+    border-radius: 5px;
+    color: #000;
+}
+.form-btn{
+    background-color: var(--primaryColor);
+    width: 100%;
+    border-radius: 10px;
+    padding: 1rem;
+    
+}
