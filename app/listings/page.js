@@ -1,6 +1,5 @@
 import React from "react";
-import CardComponent from "../../components/CardSection/CardComponent";
-import CardSection from "../../components/CardSection/CardSection";
+import AllListings from "../../components/Listings/AllListings";
 import PageHero from "../../components/PageHero/PageHero";
 import "./listings.css";
 
@@ -36,10 +35,7 @@ export default function Listings() {
           </div>
         </div>
         <div className="listings-section flex">
-          <CardComponent />
-          <CardComponent />
-          <CardComponent />
-          <CardComponent />
+          <AllListings />
         </div>
       </div>
     </div>

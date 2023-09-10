@@ -7,7 +7,7 @@ export default function FloatingMenu() {
    
     return (
       <div className="floating-menu">
-        <ul className="nav-list">
+        <ul className="nav-list-floating">
           <li className="nav-link-floating">
             <Link href="/" className="link-section">
               <MdHome className="link-icon" />
@@ -33,7 +33,7 @@ export default function FloatingMenu() {
             </Link>
           </li>
           <li className="nav-link-floating">
-            <Link href="/" className="link-section">
+            <Link href="/about" className="link-section">
               <MdList className="link-icon" />
               How it works
             </Link>

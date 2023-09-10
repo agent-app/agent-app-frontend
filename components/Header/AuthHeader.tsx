@@ -1,22 +1,20 @@
-"use client"
-import Link from 'next/link';
-import React, { useEffect, useState } from 'react'
-import { MdClose, MdNotes, MdPerson } from "react-icons/md";
-import { useGlobalContext } from '../../app/context';
-import './header.css'
+"use client";
+import Link from "next/link";
+import React, { useEffect, useState } from "react";
+import { MdClose, MdNotes } from "react-icons/md";
+import "./header.css";
 
-export default function Header() {
-  const [isMobile, setIsMobile] = useState(false)
-  const {isLoggedIn} = useGlobalContext()
+export default function AuthHeader() {
+  const [isMobile, setIsMobile] = useState(false);
 
   const revealMenu = () => {
-   setIsMobile(true)
-  }
+    setIsMobile(true);
+  };
   const closeMenu = () => {
-    setIsMobile(!isMobile)
-  }
+    setIsMobile(!isMobile);
+  };
   return (
-    <div className="navbar-main">
+    <div className="navbar-auth">
       <div className="nav-brand">
         <h1 className="text-3xl">Logo.</h1>
       </div>
@@ -53,21 +51,6 @@ export default function Header() {
               How it works
             </Link>
           </li>
-          {!isLoggedIn ? (
-            <>
-              <li className="nav-link-main">Login</li>
-              <li>
-                <button className="btn-primary-custom">Signup</button>
-              </li>
-            </>
-          ) : (
-            <>
-              <li>
-                <button className="btn-primary-custom">Create Listing</button>
-              </li>
-              <MdPerson style={{fontSize: 30}} />
-            </>
-          )}
         </ul>
       </div>
     </div>

@@ -1,0 +1,17 @@
+.auth-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.form-container{
+    border: 5px solid #0000;
+    padding: 2rem;
+    width: 60%;
+}
+.input-custom{
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #0000;
+}
+

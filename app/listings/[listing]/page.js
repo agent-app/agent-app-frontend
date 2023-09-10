@@ -5,7 +5,7 @@ import "./listing.css";
 export default function Listing() {
   return (
     <div>
-      <PageHero />
+      <PageHero title="Listing Title"/>
       <div className="listing-section">
         <div className="listing-carousel"></div>
         <div className="listing-details-section">

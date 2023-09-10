@@ -11,7 +11,9 @@
 .btn-primary-custom{
     background-color: var(--primaryColor);
     padding: 10px 40px ;
-    margin: 0 1rem;
     border-radius: 5px;
     color: #fff;
+}
+.text-primary{
+    color: var(--primaryColor);
 }

@@ -22,7 +22,7 @@
 }
 .hero-form{
     position: absolute;
-    min-width: 800px;
+    width: 800px;
     /* margin-bottom: 200px; */
     height: 400px;
     bottom: -100px;
@@ -50,4 +50,18 @@
     border-radius: 10px;
     padding: 1rem;
     
+}
+
+@media (max-width: 968px) {
+    .hero-info-area{
+        margin-top: 0;
+        width: 100%;
+    }
+    .hero-info-area .hero-title{
+        font-size: 40px;
+    }
+    .hero-form{
+        max-width: 100%!important;
+        padding: 1rem;
+    }
 }

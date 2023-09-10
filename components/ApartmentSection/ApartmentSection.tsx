@@ -1,5 +1,7 @@
+"use client"
 import React from "react";
 import { MdHouse, MdSchool } from "react-icons/md";
+import { useGlobalContext } from "../../app/context";
 import "./apartmentsection.css";
 
 
@@ -30,10 +32,11 @@ const apartments = [
     }
 ]
 export default function ApartmentSection() {
+  const {name} = useGlobalContext()
   return (
     <div className="apartment-section">
       <div className="section-heading">
-        <h1>What are you looking for?</h1>
+        <h1>{name}</h1>
       </div>
       <div className="apartment-row">
         {apartments.map((apartment) => {

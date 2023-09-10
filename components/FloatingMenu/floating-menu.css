@@ -13,7 +13,7 @@
     border-radius: 50px;
     z-index: 999;
 }
-.nav-list{
+.nav-list-floating{
     display: flex;
     align-items: center;
 }
@@ -37,4 +37,16 @@
 }
 .nav-link-floating .link-section .link-icon{
     font-size: 20px;
+}
+
+@media (max-width: 968px) {
+   
+   .floating-menu{
+        right: 50px;
+        left: 50px;
+        min-width: 300px;
+   } 
+   .nav-link-floating{
+    font-size: 12px;
+   }
 }
